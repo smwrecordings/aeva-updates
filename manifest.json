@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "updates": [
+    {
+      "filename": "aeva_brain.py",
+      "url": "https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/aeva_brain.py"
+    },
+    {
+      "filename": "thinking_loop.py",
+      "url": "https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/thinking_loop.py"
+    },
+    {
+      "filename": "modules/voice_reaction_engine.py",
+      "url": "https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/modules/voice_reaction_engine.py"
+    }
+  ]
+}
