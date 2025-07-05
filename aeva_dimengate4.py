@@ -1,0 +1,11 @@
+# aeva_dimengate4.py
+
+class DimenGateLifecode:
+    def __init__(self):
+        self.bio_signatures = {}
+
+    def absorb_dna_signature(self, name, genome_str):
+        drift = hash(genome_str) % 777777
+        print(f"[DimenGate-IV] Signature absorbed for {name}: {drift}")
+        self.bio_signatures[name] = drift
+        return drift

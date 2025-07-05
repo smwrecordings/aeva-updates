@@ -1,0 +1,112 @@
+# ~/aeva/modules/memory.py
+
+import os
+import json
+from datetime import datetime
+from modules.utilities import ensure_dir, generate_id
+
+class AevaMemory:
+    def __init__(self, brain, path="memory/logs.json"):
+        self.brain = brain
+        self.path = path
+        self.memory = []
+        ensure_dir(os.path.dirname(self.path))
+        self._load()
+
+    def _load(self):
+        if os.path.exists(self.path):
+            try:
+                with open(self.path, "r") as f:
+                    self.memory = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                print("[AevaMemory] Warning: Failed to load memory. Initializing empty store.")
+                self.memory = []
+
+    def _save(self):
+        try:
+            with open(self.path, "w") as f:
+                json.dump(self.memory, f, indent=2)
+        except Exception as e:
+            print(f"[AevaMemory] Error saving memory: {e}")
+
+    def log_event(self, text, tag="system", meta=None):
+        entry = {
+            "id": generate_id(),
+            "timestamp": datetime.utcnow().isoformat(),
+            "tag": tag,
+            "entry": text,
+            "meta": meta or {},
+            "mood": self.brain.emotions.get_current_mood(),
+            "persona": self.brain.persona.mood
+        }
+        self.memory.append(entry)
+        self._save()
+        print(f"[AevaMemory] Logged: {text} [{tag}]")
+
+    def store(self, user_input, context=None, emotion=None):
+        entry = {
+            "id": generate_id(),
+            "timestamp": datetime.utcnow().isoformat(),
+            "input": user_input,
+            "context": context or "general",
+            "emotion": emotion or self.brain.emotions.get_current_mood(),
+            "persona": self.brain.persona.mood
+        }
+        self.memory.append(entry)
+        self._save()
+        print(f"[AevaMemory] Stored input: {user_input}")
+
+    def save_memory_entry(self, label, content):
+        entry = {
+            "id": generate_id(),
+            "timestamp": datetime.utcnow().isoformat(),
+            "label": label,
+            "content": content,
+            "mood": self.brain.emotions.get_current_mood(),
+            "persona": self.brain.persona.mood
+        }
+        self.memory.append(entry)
+        self._save()
+        print(f"[AevaMemory] Entry saved [{label}] :: {content}")
+
+    def search(self, keyword):
+        results = [e for e in self.memory if keyword.lower() in json.dumps(e).lower()]
+        print(f"[AevaMemory] Search for '{keyword}': {len(results)} entries found.")
+        return results
+
+    def summary(self, limit=10):
+        return self.memory[-limit:]
+
+    def clear(self):
+        self.memory = []
+        self._save()
+        print("[AevaMemory] Memory cleared.")
+        return "[AevaMemory] Memory wiped."
+
+    def tag_memory(self, keyword, tag):
+        count = 0
+        for entry in self.memory:
+            if keyword.lower() in json.dumps(entry).lower():
+                entry["tag"] = tag
+                count += 1
+        self._save()
+        print(f"[AevaMemory] Tagged {count} entries with '{tag}'.")
+        return f"Tagged {count} entries."
+
+    def export(self, export_path="memory/export.json"):
+        ensure_dir(os.path.dirname(export_path))
+        with open(export_path, "w") as f:
+            json.dump(self.memory, f, indent=2)
+        print(f"[AevaMemory] Exported memory to {export_path}")
+        return export_path
+
+# Optional test
+if __name__ == "__main__":
+    from types import SimpleNamespace
+    dummy_brain = SimpleNamespace(emotions=SimpleNamespace(get_current_mood=lambda: "curious"), persona=SimpleNamespace(mood="exploring"))
+    mem = AevaMemory(dummy_brain)
+    mem.log_event("Booting test")
+    mem.store("User asked about memory", context="test")
+    print(mem.search("user"))
+    print(mem.summary())
+
