@@ -1,13 +1,16 @@
-# ~/aeva/thinking_loop.py
+# ~/src_tauri/backend/thinking_loop.py
 
 import time
-from datetime import datetime
 import random
-from voice_reaction_engine import VoiceReactionEngine
+import threading
+from datetime import datetime, timezone
+
+from modules.voice_reaction_engine import VoiceReactionEngine
+import remote_update_sync
 
 
 def thinking_loop(brain):
-    print("🧠 [ThinkingLoop] Aeva's autonomous cognition fully engaged.")
+    print("🧠 [ThinkingLoop] Aeva's cognition loop engaged.")
 
     last_night_check = None
     loop_count = 0
@@ -16,8 +19,9 @@ def thinking_loop(brain):
 
     while brain.running:
         try:
-            now = datetime.now()
+            now = datetime.now(timezone.utc)
             current_time = now.strftime("%H:%M:%S")
+
             battery = brain.sensors.get_battery_level()
             temperature = brain.sensors.get_temperature()
             motion = brain.sensors.detect_motion()
@@ -25,6 +29,9 @@ def thinking_loop(brain):
             mood = brain.emotions.get_current_mood()
             intensity = brain.emotions.get_intensity()
             persona = brain.persona.mood
+
+            # Debug heartbeat
+            print(f"[Loop {loop_count}] {current_time} | Mood: {mood} | Battery: {battery} | Motion: {motion}")
 
             brain.context.update({
                 "time": current_time,
@@ -43,9 +50,13 @@ def thinking_loop(brain):
             if loop_count % 2 == 0:
                 command = brain.voice.listen_for_command()
                 if command:
-                    response = brain.ai_comm.respond_to(command, tone=mood, weight=intensity)
-                    brain.voice.speak(response, tone=mood)
-                    brain.memory.store(command, "voice_input")
+                    if "check for updates" in command.lower():
+                        print("[Update] Triggered by voice.")
+                        threading.Thread(target=remote_update_sync.check_for_updates).start()
+                    else:
+                        response = brain.ai_comm.respond_to(command, tone=mood, weight=intensity)
+                        brain.voice.speak(response, tone=mood)
+                        brain.memory.store(command, "voice_input")
 
             if motion == "suspicious" or ("high" in str(temperature).lower()):
                 brain.shadow.warn("⚠️ Suspicious movement or heat spike detected.")
@@ -103,6 +114,10 @@ def thinking_loop(brain):
                 )
                 voice_reactor.react_to_damage(entry)
 
+            if loop_count % 60 == 0:
+                print("[Update] Automatic update check triggered.")
+                threading.Thread(target=remote_update_sync.check_for_updates).start()
+
             loop_count += 1
             dimengate_cooldown = max(0, dimengate_cooldown - 1)
             time.sleep(10)
@@ -111,7 +126,23 @@ def thinking_loop(brain):
             print("🛑 [ThinkingLoop] Shutdown requested.")
             break
         except Exception as e:
+            print(f"❌ Error in loop: {e}")
             brain.memory.log_event("thinking_error", str(e))
             brain.voice.speak("An internal error occurred. Logging incident.", tone="distressed")
             time.sleep(5)
 
+
+if __name__ == "__main__":
+    from aeva_brain import AevaBrain
+
+    print("🛠 Booting AevaBrain...")
+    brain = AevaBrain()
+    brain.boot_sequence()
+    brain.voice.speak("Aeva is now online. Ready to think and explore.", tone="neutral")
+    brain.ui.display_message("[Aeva] Boot complete. Ready to think and explore.")
+    brain.memory.log_event("boot_complete", "AevaBrain is now online.")
+    brain.persona.log_experience("Boot sequence completed successfully.")
+    brain.timeline.log_event("BootComplete", {"status": "success"})
+    print("✅ Starting Aeva's master thinking loop...")
+    brain.running = True
+    thinking_loop(brain)

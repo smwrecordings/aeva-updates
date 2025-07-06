@@ -20,6 +20,38 @@ class AevaPersona:
         self.experience_log = []
         self.load_state()
 
+    def log_experience(self, note: str):
+        print(f"[Persona] Logged experience: {note}")
+        self.experience_log.append({
+            "timestamp": datetime.now().isoformat(),
+            "note": note
+        })
+        self.save_state()
+
+    def current_state(self):
+        return {
+            "mood": self.mood,
+            "gender": self.gender,
+            "name": self.name,
+            "avatar": self.avatar
+        }
+
+    def express(self):
+        return f"I'm feeling {self.mood} right now."
+
+    def set_persona(self, new_mood):
+        print(f"[Persona] Switching to mood: {new_mood}")
+        self.mood = new_mood
+        self.log_experience(f"Mood switched to {new_mood}")
+
+    def auto_switch_by_emotion(self, emotion):
+        if emotion.lower() in ["anger", "fear"]:
+            self.set_persona("defensive")
+        elif emotion.lower() in ["joy", "trust"]:
+            self.set_persona("supportive")
+        else:
+            self.set_persona("curious")
+
     def _load_traits(self):
         return {
             "intelligent": 1.0, "sarcastic": 0.9, "empathetic": 0.8,
@@ -100,6 +132,3 @@ class AevaPersona:
 
     def gender_selected(self):
         return self.gender in ["female", "male", "nonbinary"]
-
-    # (rest remains the same: log_experience, express, etc.)
-

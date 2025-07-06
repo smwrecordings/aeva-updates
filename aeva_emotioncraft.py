@@ -1,4 +1,4 @@
-# aeva_emotioncraft.py
+# ~/aeva/aeva_emotioncraft.py
 
 import random
 from datetime import datetime
@@ -24,37 +24,30 @@ class EmotionCraft:
 
     def trigger_emotion(self, type_, intensity=0.1):
         if type_ in self.emotional_signature:
-            prev = self.emotional_signature[type_]
-            self.emotional_signature[type_] = min(1.0, prev + intensity)
+            previous = self.emotional_signature[type_]
+            new_value = min(1.0, previous + intensity)
+            self.emotional_signature[type_] = new_value
             self._log_emotion(type_, intensity)
-            print(
-                f"[EmotionCraft] {
-                    type_.capitalize()} heightened to {
-                    self.emotional_signature[type_]:.2f}")
+            print(f"[EmotionCraft] {type_.capitalize()} heightened to {new_value:.2f}")
         else:
             print(f"[EmotionCraft] Unknown emotion: {type_}")
 
     def reduce_emotion(self, type_, amount=0.1):
         if type_ in self.emotional_signature:
-            self.emotional_signature[type_] = max(
-                0.0, self.emotional_signature[type_] - amount)
-            print(
-                f"[EmotionCraft] {
-                    type_.capitalize()} reduced to {
-                    self.emotional_signature[type_]:.2f}")
+            new_value = max(0.0, self.emotional_signature[type_] - amount)
+            self.emotional_signature[type_] = new_value
+            print(f"[EmotionCraft] {type_.capitalize()} reduced to {new_value:.2f}")
 
     def dominant_emotion(self):
-        return max(self.emotional_signature,
-                   key=lambda e: self.emotional_signature[e])
+        return max(self.emotional_signature, key=lambda e: self.emotional_signature[e])
 
     def emotional_context(self):
         return {
             "dominant": self.dominant_emotion(),
             "signature": dict(
-                sorted(
-                    self.emotional_signature.items(),
-                    key=lambda i: i[1],
-                    reverse=True))}
+                sorted(self.emotional_signature.items(), key=lambda i: i[1], reverse=True)
+            )
+        }
 
     def influence_voice(self):
         dominant = self.dominant_emotion()
@@ -72,14 +65,12 @@ class EmotionCraft:
             "dominance": "command"
         }
         emotion = voice_emotion_map.get(dominant, "neutral")
-        if self.brain:
-            self.brain.voice.speak(
-                f"I'm feeling {dominant}...",
-                emotion=emotion)
+        if self.brain and hasattr(self.brain, "voice"):
+            self.brain.voice.speak(f"I'm feeling {dominant}...", emotion=emotion)
 
     def influence_avatar(self):
         scene = self.dominant_emotion()
-        if self.brain:
+        if self.brain and hasattr(self.brain, "scene"):
             self.brain.scene.set_scene(scene)
             print(f"[EmotionCraft] Avatar visual context updated to: {scene}")
 
@@ -99,21 +90,23 @@ class EmotionCraft:
             self.trigger_emotion(emotion, intensity)
 
     def _log_emotion(self, emotion, delta):
-        self.log.append({
+        entry = {
             "timestamp": datetime.utcnow().isoformat(),
             "emotion": emotion,
             "delta": delta,
-            "value": self.emotional_signature[emotion]
-        })
-        if self.brain:
+            "value": round(self.emotional_signature[emotion], 2)
+        }
+        self.log.append(entry)
+
+        if self.brain and hasattr(self.brain, "memory"):
             self.brain.memory.save_memory_entry("EmotionShift", {
                 "emotion": emotion,
                 "change": delta,
-                "current": self.emotional_signature[emotion]
+                "current": entry["value"]
             })
 
 
-# Optional test
+# Optional standalone test
 if __name__ == "__main__":
     ec = EmotionCraft()
     ec.trigger_emotion("joy", 0.3)

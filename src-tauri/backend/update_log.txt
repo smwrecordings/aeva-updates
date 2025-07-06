@@ -1,0 +1,12 @@
+[2025-07-05T02:32:58.110338] Error fetching manifest: Expecting value: line 1 column 1 (char 0)
+[2025-07-05T02:32:58.111581] No manifest loaded. Skipping updates.
+[2025-07-05T02:37:06.496991] 3 update(s) available.
+[2025-07-05T02:37:06.713341] Applied update: aeva_brain.py
+[2025-07-05T02:37:06.907897] Applied update: thinking_loop.py
+[2025-07-05T02:37:07.148582] Download failed for https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/modules/voice_reaction_engine.py: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/modules/voice_reaction_engine.py
+[2025-07-05T02:37:07.149162] Failed to apply update: modules/voice_reaction_engine.py
+[2025-07-05T02:42:07.566293] 3 update(s) available.
+[2025-07-05T02:42:07.756348] Applied update: aeva_brain.py
+[2025-07-05T02:42:07.984900] Applied update: thinking_loop.py
+[2025-07-05T02:42:08.225404] Download failed for https://raw.githubusercontent.com/smwrecordings/aeva-updates/main/modules/voice_reaction_engine.py: [Errno 2] No such file or directory: './src-tauri/backend\\modules/voice_reaction_engine.py'
+[2025-07-05T02:42:08.226053] Failed to apply update: modules/voice_reaction_engine.py

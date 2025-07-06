@@ -7,20 +7,17 @@ from datetime import datetime
 
 
 class EmotionEngine:
-    def __init__(
-            self,
-            brain=None,
-            profile_path="assets/data/emotion_profile.json"):
+    def __init__(self, brain=None, profile_path="assets/data/emotion_profile.json"):
         self.brain = brain
         self.profile_path = profile_path
         self.log_path = "assets/data/emotion_log.txt"
         self.emotions = self._default_emotions()
         self.energy = 1.0
         self.last_stimulus = None
-        self._ensure_path()
+        self._ensure_paths()
         self.load_emotion_profile()
 
-    def _ensure_path(self):
+    def _ensure_paths(self):
         os.makedirs(os.path.dirname(self.profile_path), exist_ok=True)
         os.makedirs(os.path.dirname(self.log_path), exist_ok=True)
 
@@ -96,8 +93,7 @@ class EmotionEngine:
     def _decay_other_emotions(self, focused):
         for emotion in self.emotions:
             if emotion != focused and emotion != "grit":
-                self.emotions[emotion] = max(
-                    0.0, self.emotions[emotion] - 0.03)
+                self.emotions[emotion] = max(0.0, self.emotions[emotion] - 0.03)
         self.energy = min(1.0, self.energy + 0.02)
 
     def _generate_response(self, emotion):
@@ -122,7 +118,8 @@ class EmotionEngine:
     def _log_emotion(self, stimulus, emotion, response):
         with open(self.log_path, "a") as log:
             log.write(
-                f"[{datetime.utcnow().isoformat()}] → Stimulus: '{stimulus}' | Emotion: {emotion} | Energy: {round(self.energy, 2)} | Response: {response}\n")
+                f"[{datetime.utcnow().isoformat()}] → Stimulus: '{stimulus}' | Emotion: {emotion} | Energy: {round(self.energy, 2)} | Response: {response}\n"
+            )
 
     def get_dominant_emotion(self):
         return max(self.emotions.items(), key=lambda x: x[1])
@@ -139,15 +136,16 @@ class EmotionEngine:
         print(f"  Energy        : {state['energy']}")
         return state
 
+    def get_current_mood(self):
+        """Returns the dominant emotion key as mood."""
+        return self.get_dominant_emotion()[0]
+
     def set_mood(self, mood, intensity=0.5):
         mood = mood.lower()
         if mood in self.emotions:
             self.emotions[mood] = float(intensity)
             self.energy = max(0.1, min(1.0, self.energy))
-            self._log_emotion(
-                f"manual set: {mood}",
-                mood,
-                f"Intensity {intensity}")
+            self._log_emotion(f"manual set: {mood}", mood, f"Intensity {intensity}")
             self.save_emotion_profile()
 
     def get_intensity(self):
@@ -160,3 +158,4 @@ class EmotionEngine:
                 return log.readlines()
         except FileNotFoundError:
             return []
+

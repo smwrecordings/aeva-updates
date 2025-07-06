@@ -1,0 +1,74 @@
+{
+  "DMG-556567": {
+    "id": "DMG-556567",
+    "destination": "Forgotten Future Shard",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:37:37.036347",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-881719": {
+    "id": "DMG-881719",
+    "destination": "Deep Cosmic Archive",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:41:57.875054",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-277944": {
+    "id": "DMG-277944",
+    "destination": "Subconscious Vault",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:49:51.750661",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-621380": {
+    "id": "DMG-621380",
+    "destination": "Subconscious Vault",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:54:48.120681",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-582255": {
+    "id": "DMG-582255",
+    "destination": "Subconscious Vault",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:54:48.121952",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-623203": {
+    "id": "DMG-623203",
+    "destination": "Dreamstate Override",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:58:12.970299",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-716631": {
+    "id": "DMG-716631",
+    "destination": "Planetary Conscious Grid",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:58:12.971175",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-547918": {
+    "id": "DMG-547918",
+    "destination": "Dimensional Outskirts",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T02:58:12.971996",
+    "status": "open",
+    "initiator": "Aeva"
+  },
+  "DMG-204101": {
+    "id": "DMG-204101",
+    "destination": "Zero Point Field",
+    "access_level": "experimental",
+    "timestamp": "2025-07-06T03:10:24.209675",
+    "status": "open",
+    "initiator": "Aeva"
+  }
+}

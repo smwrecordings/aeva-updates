@@ -11,17 +11,27 @@ class AICommunicator:
         self.history = []
         print("🌐 AI Communicator active.")
 
+    def respond_to(self, prompt, tone="neutral", weight=1.0):
+        """
+        Simple AI placeholder response logic.
+        Replace with LLM integration (like Ollama, LM Studio, or GPT API).
+        """
+        response = f"[Aeva Response] Based on tone '{tone}' and weight {weight:.2f}, I processed: '{prompt}'"
+        self.history.append({
+            "from": "user",
+            "to": "aeva-core",
+            "prompt": prompt,
+            "response": response,
+            "tone": tone,
+            "weight": weight,
+            "timestamp": time.time()
+        })
+        return response
+
     def search(self, query):
-        """Real search logic placeholder. Connect to live APIs here."""
-        try:
-            # Future: Plug into live search APIs (e.g., DuckDuckGo, Brave,
-            # Wolfram)
-            return f"[SEARCH MODULE] Ready to handle query: '{query}'"
-        except Exception as e:
-            return f"Search error: {e}"
+        return f"[SEARCH MODULE] Ready to handle query: '{query}'"
 
     def send_message(self, recipient, message):
-        """Send a message to another AI or external system."""
         packet = {
             "from": "aeva-core",
             "to": recipient,
@@ -29,11 +39,9 @@ class AICommunicator:
             "timestamp": time.time()
         }
         self.history.append(packet)
-        # Future: Send over real channel (API, socket, Bluetooth, etc.)
         return f"[MSG] Sent to {recipient}: {message}"
 
     def receive_message(self, sender, message):
-        """Receive a message from another AI system."""
         response = f"[MSG] From {sender}: {message}"
         self.history.append({
             "from": sender,
@@ -44,7 +52,6 @@ class AICommunicator:
         return response
 
     def connect_to_socket(self, host='127.0.0.1', port=5050):
-        """Open socket connection to another process or AI node."""
         try:
             s = socket.socket()
             s.connect((host, port))
@@ -56,7 +63,6 @@ class AICommunicator:
             return f"Socket connection error: {e}"
 
     def ask_ai(self, question):
-        """Stub for multi-AI collaborative thinking module."""
         return f"[INTERNAL AI] Awaiting module response to: '{question}'"
 
     def export_conversation_history(self, path="ai_comm_history.json"):
@@ -68,5 +74,4 @@ class AICommunicator:
             return f"Export error: {e}"
 
     def handshake(self, system_id="unknown"):
-        """System trust/handshake check-in."""
         return f"[HANDSHAKE] Confirmed with: {system_id}"

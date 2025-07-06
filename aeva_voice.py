@@ -2,7 +2,10 @@ import subprocess
 import platform
 import random
 import time
+import os
+import json
 from datetime import datetime
+import speech_recognition as sr
 
 
 class VoiceInterface:
@@ -25,7 +28,8 @@ class VoiceInterface:
             print("[AevaVoice] termux-tts-speak not available.")
             return False
 
-    def speak(self, text, emotion="neutral"):
+    def speak(self, text, emotion=None, tone=None):
+        emotion = emotion or tone or "neutral"
         timestamp = datetime.utcnow().isoformat()
         processed_text = self._process_text(text)
         self.last_spoken = processed_text
@@ -35,7 +39,7 @@ class VoiceInterface:
         final_pitch = str(round(float(pitch) + gender_pitch_offset, 2))
         final_rate = rate
 
-        print(f"🗣️ Aeva says ({emotion}, {self._get_gender()}): {processed_text}")
+        print(f"὞3️ Aeva says ({emotion}, {self._get_gender()}): {processed_text}")
         self.log.append({
             "timestamp": timestamp,
             "emotion": emotion,
@@ -68,9 +72,12 @@ class VoiceInterface:
             "mysterious": ("0.8", "0.7"),
             "intense": ("1.5", "1.5"),
             "command": ("1.2", "1.0"),
-            "dreamy": ("1.1", "0.9")
+            "dreamy": ("1.1", "0.9"),
+            "concerned": ("0.9", "0.9"),
+            "curious": ("1.2", "1.1"),
+            "whisper": ("0.8", "0.7")
         }
-        return modulations.get(emotion, (self.default_pitch, self.default_rate))
+        return modulations.get(emotion.lower(), (self.default_pitch, self.default_rate))
 
     def _gender_pitch_offset(self):
         gender = self._get_gender()
@@ -78,8 +85,7 @@ class VoiceInterface:
             return -0.2
         elif gender == "nonbinary":
             return 0.0
-        else:  # female default
-            return 0.2
+        return 0.2
 
     def _get_gender(self):
         if self.brain and hasattr(self.brain, "persona"):
@@ -108,15 +114,7 @@ class VoiceInterface:
             self.speak("I haven’t spoken yet.")
 
     def whisper(self, text):
-        processed = self._process_text(text)
-        print(f"🤫 Aeva whispers: {processed}")
-        if self.available:
-            subprocess.run([
-                "termux-tts-speak",
-                "-p", "0.7",
-                "-r", "0.7",
-                processed
-            ], check=True)
+        self.speak(text, emotion="whisper")
 
     def scream(self, text):
         processed = self._process_text(text.upper())
@@ -136,11 +134,33 @@ class VoiceInterface:
         return self.log[-1] if self.log else None
 
     def save_voice_log(self, path="assets/data/voice_log.json"):
-        import json, os
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w") as f:
             json.dump(self.log, f, indent=2)
         print(f"[AevaVoice] Voice log saved to {path}")
+
+    def listen_for_command(self, timeout=5, phrase_time_limit=10):
+        recognizer = sr.Recognizer()
+        try:
+            with sr.Microphone() as source:
+                print("🎤 [AevaVoice] Listening for your command...")
+                recognizer.adjust_for_ambient_noise(source)
+                audio = recognizer.listen(source, timeout=timeout, phrase_time_limit=phrase_time_limit)
+                command = recognizer.recognize_google(audio)
+                print(f"[AevaVoice] Heard: {command}")
+                return command.strip()
+        except sr.WaitTimeoutError:
+            print("⏱️ [AevaVoice] Listening timed out.")
+            return ""
+        except sr.UnknownValueError:
+            print("🤷 [AevaVoice] Sorry, I didn’t catch that.")
+            return ""
+        except sr.RequestError as e:
+            print(f"❌ [AevaVoice] API error: {e}")
+            return ""
+        except Exception as e:
+            print(f"⚠️ [AevaVoice] Mic issue: {e}")
+            return input("🎤 Type your command instead: ").strip()
 
 
 if __name__ == "__main__":

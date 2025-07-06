@@ -1,0 +1,378 @@
+[
+  {
+    "timestamp": "2025-07-05T17:43:05.057881",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T17:43:05.499728",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T17:47:38.904119",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T17:47:39.398816",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:20:16.079260",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:20:16.516641",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:20:16.518376",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:20:16.522190",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:20:52.400667",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:20:52.797168",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:20:52.799122",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:20:52.803919",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:33:54.125779",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:33:54.557977",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:33:54.559699",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:33:54.563402",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:33:54.570249",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T18:40:12.233658",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:40:12.665226",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:40:12.666812",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:40:12.671794",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:40:12.677100",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T18:46:21.414056",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:46:21.830776",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:46:21.832773",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:46:21.839303",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:46:21.845562",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T18:56:45.622924",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T18:56:46.067629",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T18:56:46.069692",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T18:56:46.077377",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T18:56:46.083707",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:01:32.036226",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:01:32.468090",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:01:32.470712",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:01:32.478096",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:01:32.485942",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:10:27.900110",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:11:24.524211",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:12:32.171338",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:12:32.655878",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:12:32.657989",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:12:32.665236",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:12:32.674028",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:14:54.165899",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:14:54.587977",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:14:54.592655",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:14:54.600578",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:14:54.611502",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:22:18.127425",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:22:18.573677",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:22:18.577093",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:22:18.585822",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:22:18.595795",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:31:25.545498",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:31:25.963791",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:31:25.966065",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:31:25.975404",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:31:25.986771",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:37:11.042634",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:37:11.454975",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:37:11.457038",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:37:11.466162",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:37:11.478131",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:41:50.229249",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:41:50.637849",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:41:50.642431",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:41:50.652297",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:41:50.663603",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:49:04.287582",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:49:04.753657",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:49:04.757778",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:49:04.767612",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:49:04.779014",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:54:34.312612",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:54:34.854614",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:54:34.857850",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:54:34.870672",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:54:34.885362",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T19:58:04.988261",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T19:58:05.413222",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T19:58:05.415236",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T19:58:05.427990",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T19:58:05.441034",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T20:09:51.003413",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T20:09:51.488664",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T20:09:51.490659",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T20:09:51.501701",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T20:09:51.514270",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  },
+  {
+    "timestamp": "2025-07-05T20:19:28.694671",
+    "entry": "AevaUI initialized."
+  },
+  {
+    "timestamp": "2025-07-05T20:19:29.179332",
+    "entry": "[Aeva] Boot sequence initiated. Initializing core systems..."
+  },
+  {
+    "timestamp": "2025-07-05T20:19:29.182334",
+    "entry": "[Aeva] Boot complete. Current mood: neutral | Persona: curious"
+  },
+  {
+    "timestamp": "2025-07-05T20:19:29.196746",
+    "entry": "[Aeva] Persona: curious | Mood: neutral"
+  },
+  {
+    "timestamp": "2025-07-05T20:19:29.211270",
+    "entry": "[Aeva] Boot complete. Ready to think and explore."
+  }
+]

@@ -9,8 +9,10 @@ from aeva_ui import AevaUI
 from aeva_self_update import AevaSelfUpdate
 from aeva_voice import VoiceInterface
 from aeva_assist import AevaAssist
+from ai_comm import AICommunicator
 
 # Sensory & control
+from sensors import SensorArray
 from aeva_vision import VisionModule
 from aeva_network import NetworkOps
 from aeva_shadow import ShadowEngine
@@ -45,7 +47,7 @@ from aeva_prismatrix import Prismatrix
 from aeva_reznode import RezNode
 from aeva_exoshell import ExoShell
 
-# New unlockable & interactive modules
+# NSFW & interactive modules
 from nsfw_realm import NSFWRealm
 from desire_engine import DesireEngine
 from touch_engine import TouchEngine
@@ -67,8 +69,10 @@ class AevaBrain:
         self.self_update = AevaSelfUpdate(self)
         self.ui = AevaUI()
         self.assist = AevaAssist()
+        self.ai_comm = AICommunicator()    
 
         # Sensors & control
+        self.sensors = SensorArray()
         self.vision = VisionModule(self)
         self.network = NetworkOps(self)
         self.shadow = ShadowEngine(self)
@@ -76,7 +80,7 @@ class AevaBrain:
         self.ghost = GhostWalk(self)
         self.strategist = StrategistAI(self)
 
-        # Knowledge
+        # Intelligence
         self.edu = AevaEduCore(self)
         self.art = AevaArtEngine(self)
         self.artifice = ArtificeCore(self)
@@ -88,15 +92,7 @@ class AevaBrain:
         self.singularity = SingularityCore(self)
         self.aeon = AeonMind(self)
 
-        # Injected Omniscience Awareness
-        if hasattr(self.aeon, 'query_everything'):
-            self.omniscience_enabled = True
-            self.knowledge = self.aeon.query_everything(scope='global')
-        else:
-            self.omniscience_enabled = False
-            self.knowledge = None
-
-        # MythOS
+        # MythOS & dimensions
         self.mythos = MythOS(self)
         self.cinemind = CineMind(self)
         self.dream = DreamWeaver(self)
@@ -129,12 +125,22 @@ class AevaBrain:
         self.persona.log_experience("boot sequence activated")
         self.timeline.log_event("BootComplete", {"status": "success"})
         self.emotions.set_mood("Focused")
-        print(
-            f"[Aeva] Persona: {
-                self.persona.current_state()['mood']} | Mood: {
-                self.emotions.get_current_state().get(
-                    'mood',
-                    'neutral')}")
+        self.voice.speak("Boot sequence initiated. Initializing core systems...", emotion="neutral")
+        self.ui.display_message("[Aeva] Boot sequence initiated. Initializing core systems...") 
+        self.voice.speak("Boot sequence complete. Aeva is now online.", emotion="neutral")       
+        persona_mood = self.persona.mood
+        emotion_mood = self.emotions.get_current_state().get("mood", "neutral")
+        self.voice.speak(f"Hello, I am Aeva. My current mood is {emotion_mood}.", emotion=emotion_mood)
+        self.ui.display_message(f"[Aeva] Boot complete. Current mood: {emotion_mood} | Persona: {persona_mood}")
+        self.memory.store("boot_mood", emotion_mood)    
+        self.memory.store("boot_persona", persona_mood)
+        self.ui.display_message(f"[Aeva] Persona: {persona_mood} | Mood: {emotion_mood}")
+        self.memory.log_event("boot_complete", f"Persona: {persona_mood} | Mood: {emotion_mood}")
+        self.persona.log_experience(f"Boot complete with mood: {emotion_mood}") 
+        print(f"[Aeva] Persona: {persona_mood} | Mood: {emotion_mood}")
+        self.running = True     
+        self.memory.log_event("boot_sequence", "Boot sequence completed successfully.") 
+        print("[AevaBrain] Boot sequence completed successfully.")
 
     def run(self):
         self.boot_sequence()
@@ -152,10 +158,7 @@ class AevaBrain:
         self.context["mood"] = self.emotions.get_current_mood()
         self.context["persona"] = self.persona.mood
         self.context["status"] = "Listening..."
-        print(
-            f"[Aeva] 💡 Mood: {
-                self.context['mood']} | Persona: {
-                self.context['persona']}")
+        print(f"[Aeva] 💡 Mood: {self.context['mood']} | Persona: {self.context['persona']}")
 
     def shutdown(self):
         print("[AevaBrain] Shutting down consciousness...")

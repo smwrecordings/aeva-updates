@@ -1,0 +1,345 @@
+[
+    {
+        "timestamp": "2025-07-06T00:06:14.576114",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:23:29.417213",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:25:01.728880",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:26:28.073038",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:34:27.415878",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:43:05.498624",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T00:47:39.397707",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:20:16.515369",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:20:52.795908",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:33:54.556850",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:33:54.573512",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:40:12.663957",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:40:12.680480",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:46:21.829476",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:46:21.849287",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:56:46.066272",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T01:56:46.088358",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:01:32.466828",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:01:32.491575",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:12:32.654540",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:12:32.678672",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:14:54.586404",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:14:54.616512",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:22:18.572306",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:22:18.601182",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:31:25.962143",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:31:25.992508",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:37:11.453649",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:37:11.483830",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:41:50.635949",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:41:50.670755",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:49:04.751622",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:49:04.785581",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:54:34.852940",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:54:34.894450",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:58:05.411578",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T02:58:05.448398",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T03:09:51.487153",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T03:09:51.522020",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T03:10:24.223053",
+        "label": "predictive_alert",
+        "metadata": {
+            "time": "03:09:51",
+            "location": "GPS not supported on this platform",
+            "battery": null,
+            "temperature": "Temperature not supported on this platform",
+            "motion": "still",
+            "mood": "grit",
+            "intensity": 1.0,
+            "persona": "curious"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T03:19:29.177499",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    },
+    {
+        "timestamp": "2025-07-06T03:19:29.219227",
+        "label": "BootComplete",
+        "metadata": {
+            "status": "success"
+        },
+        "source": "AevaBrain"
+    }
+]

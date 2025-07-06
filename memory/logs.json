@@ -1,0 +1,2011 @@
+[
+  {
+    "id": "YKhfJyuLN4xA",
+    "timestamp": "2025-07-05T23:31:27.157524",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Uj8JvR2RNJU4",
+    "timestamp": "2025-07-05T23:35:12.102295",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "u9mJzKlBauyP",
+    "timestamp": "2025-07-05T23:46:11.843225",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "19aOH4KYeqkS",
+    "timestamp": "2025-07-05T23:46:11.847636",
+    "tag": "'AevaBrain' object has no attribute 'sensors'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "8Y0drsg2Huea",
+    "timestamp": "2025-07-05T23:58:16.137254",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "r9q9ElBRc3F7",
+    "timestamp": "2025-07-06T00:06:14.574196",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "YWMh8PLKmITR",
+    "timestamp": "2025-07-06T00:23:29.414416",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "zxmyRrccoOq5",
+    "timestamp": "2025-07-06T00:25:01.722760",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "wVKeeYzkprFg",
+    "timestamp": "2025-07-06T00:26:28.070197",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "xGcZUbhNbwgc",
+    "timestamp": "2025-07-06T00:34:27.413683",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "j7X5EGxsIbtl",
+    "timestamp": "2025-07-06T00:43:05.496515",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "OVmIFziSiTHD",
+    "timestamp": "2025-07-06T00:47:39.395209",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "6tN5eLFdy8eZ",
+    "timestamp": "2025-07-06T01:20:16.510615",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "djtqy8NBW4oA",
+    "timestamp": "2025-07-06T01:20:16.518997",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Rxu7bLqoReVM",
+    "timestamp": "2025-07-06T01:20:16.520519",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "b94DDi7488mh",
+    "timestamp": "2025-07-06T01:20:16.522854",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "9VZftRKFz5uN",
+    "timestamp": "2025-07-06T01:20:16.525362",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "cQXK6l8OeVHc",
+    "timestamp": "2025-07-06T01:20:52.793001",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "CmwN4WM1bQxs",
+    "timestamp": "2025-07-06T01:20:52.799721",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "kocA9IS0sNsW",
+    "timestamp": "2025-07-06T01:20:52.801827",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ySuSm84iTbkC",
+    "timestamp": "2025-07-06T01:20:52.804571",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "lxhaYiXiT7Fk",
+    "timestamp": "2025-07-06T01:20:52.807772",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "UOatOQmM8BUG",
+    "timestamp": "2025-07-06T01:33:54.553531",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "DI3jDvSN5MV3",
+    "timestamp": "2025-07-06T01:33:54.560325",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "V5n8FxobaNdY",
+    "timestamp": "2025-07-06T01:33:54.561842",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "iArqo5Uh8QQD",
+    "timestamp": "2025-07-06T01:33:54.564039",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "E1Ke9DhnIZnu",
+    "timestamp": "2025-07-06T01:33:54.568277",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "pqEgtdpxLNXZ",
+    "timestamp": "2025-07-06T01:33:54.570840",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ZImzhhqPzuYS",
+    "timestamp": "2025-07-06T01:33:54.612475",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "jxO7ThMMqsOO",
+    "timestamp": "2025-07-06T01:33:59.649090",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "25Hbp3HASj3l",
+    "timestamp": "2025-07-06T01:34:04.684226",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "41aIXVCOHgfo",
+    "timestamp": "2025-07-06T01:34:09.721833",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "NwsedscO0LFy",
+    "timestamp": "2025-07-06T01:34:14.761265",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "9J6l5nCgPvnz",
+    "timestamp": "2025-07-06T01:34:19.796878",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "QHB8R6L9uAh1",
+    "timestamp": "2025-07-06T01:34:24.833982",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Xz4gqMng75ra",
+    "timestamp": "2025-07-06T01:34:29.869869",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "y3TTlaj5tkkb",
+    "timestamp": "2025-07-06T01:34:34.910348",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "g5k4TAmteHe7",
+    "timestamp": "2025-07-06T01:34:39.948406",
+    "tag": "'SensorArray' object has no attribute 'detect_motion'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "8rOQdHGeFVGf",
+    "timestamp": "2025-07-06T01:40:12.661157",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "I6gL2e8BcMb9",
+    "timestamp": "2025-07-06T01:40:12.667535",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "jPKxDWuCsxHG",
+    "timestamp": "2025-07-06T01:40:12.669874",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "XGKhxxckcuOa",
+    "timestamp": "2025-07-06T01:40:12.672593",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "IVqdLXfgsG5H",
+    "timestamp": "2025-07-06T01:40:12.674995",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "CVTsis4Y6Tdv",
+    "timestamp": "2025-07-06T01:40:12.677937",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ZvBCfSBfPCis",
+    "timestamp": "2025-07-06T01:40:12.717535",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "0eCQo5NSGDx7",
+    "timestamp": "2025-07-06T01:40:17.755585",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "7DQ4RBb5Xxbg",
+    "timestamp": "2025-07-06T01:40:22.793681",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "sEcewFBDB6hU",
+    "timestamp": "2025-07-06T01:40:27.833019",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "wyhIWvDO5k9d",
+    "timestamp": "2025-07-06T01:40:32.869976",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "zzRcQYIbAxYe",
+    "timestamp": "2025-07-06T01:40:37.910168",
+    "tag": "'EmotionEngine' object has no attribute 'get_current_mood'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "fp6e7GopARy7",
+    "timestamp": "2025-07-06T01:46:21.826655",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "u4aEY53K28pw",
+    "timestamp": "2025-07-06T01:46:21.833487",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "5XcjeYvn8WTG",
+    "timestamp": "2025-07-06T01:46:21.835543",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "9yRmzyiSWvWi",
+    "timestamp": "2025-07-06T01:46:21.840053",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "HRwUAluZMrYK",
+    "timestamp": "2025-07-06T01:46:21.843221",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "QyfEFLpmknSH",
+    "timestamp": "2025-07-06T01:46:21.846494",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "IHyafltHAAyy",
+    "timestamp": "2025-07-06T01:46:21.884497",
+    "tag": {
+      "time": "01:46:26",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "HqN4iwX3DHyt",
+    "timestamp": "2025-07-06T01:46:21.886728",
+    "tag": "'VoiceInterface' object has no attribute 'listen_for_command'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "AP5A0vv8c5aU",
+    "timestamp": "2025-07-06T01:46:26.925311",
+    "tag": {
+      "time": "01:46:26",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "k8pbsd5KylwI",
+    "timestamp": "2025-07-06T01:46:26.928489",
+    "tag": "'VoiceInterface' object has no attribute 'listen_for_command'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "b6XhevRyFCoO",
+    "timestamp": "2025-07-06T01:56:46.062249",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "V01Sz4xh44rB",
+    "timestamp": "2025-07-06T01:56:46.071533",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "xrph4IAH5XDU",
+    "timestamp": "2025-07-06T01:56:46.074858",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "O7UalT52HrRY",
+    "timestamp": "2025-07-06T01:56:46.078126",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "A03Emurt9cT4",
+    "timestamp": "2025-07-06T01:56:46.081228",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "B8SlXp7hnaao",
+    "timestamp": "2025-07-06T01:56:46.084412",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "jcNRiY4fyF7f",
+    "timestamp": "2025-07-06T01:56:46.127433",
+    "tag": {
+      "time": "01:56:56",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "rKXbg1kHuBWZ",
+    "timestamp": "2025-07-06T01:56:46.130440",
+    "tag": "'VoiceInterface' object has no attribute 'listen_for_command'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "up0MqAU4tVVU",
+    "timestamp": "2025-07-06T01:56:51.171605",
+    "tag": {
+      "time": "01:56:56",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "CtLTyoWQ5oPG",
+    "timestamp": "2025-07-06T01:56:51.175157",
+    "tag": "'VoiceInterface' object has no attribute 'listen_for_command'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "vmtBR8UKUf9w",
+    "timestamp": "2025-07-06T01:56:56.214185",
+    "tag": {
+      "time": "01:56:56",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "PN8Mf6vzZC9c",
+    "timestamp": "2025-07-06T01:56:56.217719",
+    "tag": "'VoiceInterface' object has no attribute 'listen_for_command'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "nwXacbdPaf25",
+    "timestamp": "2025-07-06T02:01:32.462540",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Du0wCCGZzHK0",
+    "timestamp": "2025-07-06T02:01:32.471656",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "OTVTEC7oSQdg",
+    "timestamp": "2025-07-06T02:01:32.474835",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "85Vt0IAfU9up",
+    "timestamp": "2025-07-06T02:01:32.478899",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Bot3HcUXdZN0",
+    "timestamp": "2025-07-06T02:01:32.482620",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "chQJO0u3vdRH",
+    "timestamp": "2025-07-06T02:01:32.486921",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "g5Ko7cv8jKxl",
+    "timestamp": "2025-07-06T02:01:32.528720",
+    "tag": {
+      "time": "02:01:52",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "3EpSBPK3YkiN",
+    "timestamp": "2025-07-06T02:01:47.423523",
+    "tag": "'AevaBrain' object has no attribute 'ai_comm'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "PTpcuWwg0aKe",
+    "timestamp": "2025-07-06T02:01:52.464899",
+    "tag": {
+      "time": "02:01:52",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "vDCEL2O4locS",
+    "timestamp": "2025-07-06T02:02:09.217165",
+    "tag": "'AevaBrain' object has no attribute 'ai_comm'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "NDCV1V9lV2NM",
+    "timestamp": "2025-07-06T02:12:32.647321",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "blQwGG3gNYqf",
+    "timestamp": "2025-07-06T02:12:32.658833",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "VGofkSANtOIm",
+    "timestamp": "2025-07-06T02:12:32.662039",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "OFKKvJetKqDa",
+    "timestamp": "2025-07-06T02:12:32.666256",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "H8kqXWZq62en",
+    "timestamp": "2025-07-06T02:12:32.670192",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "EildQmCTvdAr",
+    "timestamp": "2025-07-06T02:12:32.674871",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ZCw7TAixDHs6",
+    "timestamp": "2025-07-06T02:12:32.716050",
+    "tag": {
+      "time": "02:13:03",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "HmwGCiTjQrVA",
+    "timestamp": "2025-07-06T02:12:58.661434",
+    "tag": "'AICommunicator' object has no attribute 'respond_to'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "I0bqq60ZVpSW",
+    "timestamp": "2025-07-06T02:13:03.702302",
+    "tag": {
+      "time": "02:13:03",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Oo0B7zUDNNpU",
+    "timestamp": "2025-07-06T02:14:54.581012",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "1WcAN7k6rYPP",
+    "timestamp": "2025-07-06T02:14:54.593687",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "dhZYUsiGQlqQ",
+    "timestamp": "2025-07-06T02:14:54.597084",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "YRnAIzMZWNUS",
+    "timestamp": "2025-07-06T02:14:54.601566",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "GFdqoBouxnvr",
+    "timestamp": "2025-07-06T02:14:54.607958",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "0MhstfexDjV2",
+    "timestamp": "2025-07-06T02:14:54.612520",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "DZgiG578RBJh",
+    "timestamp": "2025-07-06T02:14:54.654722",
+    "tag": {
+      "time": "02:15:06",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Ji0ThQ6PW3L9",
+    "timestamp": "2025-07-06T02:15:01.545048",
+    "input": "hello",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "LmOgNVc8IxTl",
+    "timestamp": "2025-07-06T02:15:01.549264",
+    "tag": "could not convert string to float: 'Battery data not available'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "QyX22Mgwa2cK",
+    "timestamp": "2025-07-06T02:15:06.590513",
+    "tag": {
+      "time": "02:15:06",
+      "location": "Location unavailable",
+      "battery": "Battery data not available",
+      "temperature": "Temperature data not available",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "uNevXmfc3a3l",
+    "timestamp": "2025-07-06T02:22:18.567263",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "9frwFw7OI3L8",
+    "timestamp": "2025-07-06T02:22:18.578138",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "t79EKdpxabdB",
+    "timestamp": "2025-07-06T02:22:18.581912",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "HZmfpXRgsvmI",
+    "timestamp": "2025-07-06T02:22:18.586864",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "eZlt0s59iSkb",
+    "timestamp": "2025-07-06T02:22:18.592035",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "nG24gNXDB4yR",
+    "timestamp": "2025-07-06T02:22:18.596728",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "BGPoIfSrUB2A",
+    "timestamp": "2025-07-06T02:22:18.602510",
+    "tag": {
+      "time": "02:22:38",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "knpnIzVFCoj7",
+    "timestamp": "2025-07-06T02:22:33.914540",
+    "input": "hello",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "SBCHxx48kSgd",
+    "timestamp": "2025-07-06T02:22:33.918492",
+    "tag": "'DimenGate' object has no attribute 'scan_portals'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "YIEmk132pGAX",
+    "timestamp": "2025-07-06T02:22:38.923096",
+    "tag": {
+      "time": "02:22:38",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "cim80Y0rbLCl",
+    "timestamp": "2025-07-06T02:31:25.956752",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "tgqhwfw27hyh",
+    "timestamp": "2025-07-06T02:31:25.966993",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "9PAY7p6micI7",
+    "timestamp": "2025-07-06T02:31:25.970802",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "7ajPw7JR2TTz",
+    "timestamp": "2025-07-06T02:31:25.976593",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "w1jUbXlncaGf",
+    "timestamp": "2025-07-06T02:31:25.982484",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "BiCG6pmwSDHz",
+    "timestamp": "2025-07-06T02:31:25.987693",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "g0TMwp7y2m4Y",
+    "timestamp": "2025-07-06T02:31:25.994157",
+    "tag": {
+      "time": "02:31:25",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "QpzoO11cm2h3",
+    "timestamp": "2025-07-06T02:37:11.448746",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Jp7R2pQORALp",
+    "timestamp": "2025-07-06T02:37:11.458560",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ltNel1ak3epu",
+    "timestamp": "2025-07-06T02:37:11.462438",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "CxDQTQIFC98g",
+    "timestamp": "2025-07-06T02:37:11.467131",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "M3Wa8MH15qZ9",
+    "timestamp": "2025-07-06T02:37:11.472056",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ISzWrJVmV3c7",
+    "timestamp": "2025-07-06T02:37:11.479161",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "bSPb7Olo36AI",
+    "timestamp": "2025-07-06T02:37:11.485377",
+    "tag": {
+      "time": "02:37:42",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "VpQqr9ewTtPq",
+    "timestamp": "2025-07-06T02:37:37.030367",
+    "input": "aeva > who are you?",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "zPjeMJsIk5jH",
+    "timestamp": "2025-07-06T02:37:37.037197",
+    "tag": {
+      "found": 1
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "WQqFsnwZSb5l",
+    "timestamp": "2025-07-06T02:37:37.043467",
+    "tag": "'ShadowEngine' object has no attribute 'analyze_pattern'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "PQKanDLC3TZv",
+    "timestamp": "2025-07-06T02:37:42.048170",
+    "tag": {
+      "time": "02:37:42",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "e01Cj6MfObGs",
+    "timestamp": "2025-07-06T02:41:50.630276",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "iqbKO5KbP3xI",
+    "timestamp": "2025-07-06T02:41:50.643547",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "mCIkgNxkWst4",
+    "timestamp": "2025-07-06T02:41:50.647597",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Wv5ac7xmaskt",
+    "timestamp": "2025-07-06T02:41:50.653633",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "5bJSwb10t7wX",
+    "timestamp": "2025-07-06T02:41:50.659245",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "PfySTpEjgzbg",
+    "timestamp": "2025-07-06T02:41:50.664735",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ueaYUwovNPop",
+    "timestamp": "2025-07-06T02:41:50.672598",
+    "tag": {
+      "time": "02:42:02",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "2Fb4rr9ePNYP",
+    "timestamp": "2025-07-06T02:41:57.869884",
+    "input": "how are you?",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "AfrK7iF6nKG4",
+    "timestamp": "2025-07-06T02:41:57.876397",
+    "tag": {
+      "found": 1
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "y3u69z8OE21l",
+    "timestamp": "2025-07-06T02:41:57.882680",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "1BYcwsZrYuoM",
+    "timestamp": "2025-07-06T02:42:02.888067",
+    "tag": {
+      "time": "02:42:02",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "zF1JaEy98jCJ",
+    "timestamp": "2025-07-06T02:49:04.745774",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "q3PT4GxsJcmy",
+    "timestamp": "2025-07-06T02:49:04.758987",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "jthbc0Xw2FOr",
+    "timestamp": "2025-07-06T02:49:04.763294",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "0SfrqiHs1AaO",
+    "timestamp": "2025-07-06T02:49:04.768717",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "qPkCZbWznQLe",
+    "timestamp": "2025-07-06T02:49:04.774514",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "GlcDMrsdXI48",
+    "timestamp": "2025-07-06T02:49:04.780100",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "QOdjHxiaOJCc",
+    "timestamp": "2025-07-06T02:49:04.788641",
+    "tag": {
+      "time": "02:50:43",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "PCgfFKIuqwNM",
+    "timestamp": "2025-07-06T02:49:51.745389",
+    "input": "Aeva > who are you?",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "i2i5qHISsBBY",
+    "timestamp": "2025-07-06T02:49:51.751310",
+    "tag": {
+      "found": 1
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "mukJO3IKoNDP",
+    "timestamp": "2025-07-06T02:49:51.758047",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "gjVNOlUxsD2V",
+    "timestamp": "2025-07-06T02:49:56.762902",
+    "tag": {
+      "time": "02:50:43",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "JJfDjfnzvFn1",
+    "timestamp": "2025-07-06T02:50:24.917516",
+    "input": "Aeva > who are you",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Ww9kl4tBG6Bw",
+    "timestamp": "2025-07-06T02:50:24.923503",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Z9loOd2ICURy",
+    "timestamp": "2025-07-06T02:50:29.928877",
+    "tag": {
+      "time": "02:50:43",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "C47ZOCWkGcEB",
+    "timestamp": "2025-07-06T02:50:38.563815",
+    "input": "who are you",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "4V269Byj3bqp",
+    "timestamp": "2025-07-06T02:50:38.570704",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ibMyqv3Gc25S",
+    "timestamp": "2025-07-06T02:50:49.128990",
+    "tag": {
+      "time": "02:50:43",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "K1Zs3dC7g3PU",
+    "timestamp": "2025-07-06T02:54:34.845871",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "xgRPQ0JV9FE8",
+    "timestamp": "2025-07-06T02:54:34.859212",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "pXlfNNj7zycM",
+    "timestamp": "2025-07-06T02:54:34.864304",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "JdnQ3fZWK1wz",
+    "timestamp": "2025-07-06T02:54:34.872929",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "FSowXhAL4V6X",
+    "timestamp": "2025-07-06T02:54:34.879210",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ugapEHjH9RRp",
+    "timestamp": "2025-07-06T02:54:34.887450",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "rSCFdMf73V2W",
+    "timestamp": "2025-07-06T02:54:34.896052",
+    "tag": {
+      "time": "02:54:53",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "NsQ0TYkkEs3g",
+    "timestamp": "2025-07-06T02:54:48.114371",
+    "input": "who are you?",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "WVlegbYG1DVx",
+    "timestamp": "2025-07-06T02:54:48.122627",
+    "tag": {
+      "found": 2
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "DL5bLcsDid5W",
+    "timestamp": "2025-07-06T02:54:48.130068",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "g6wgIZG5ptgE",
+    "timestamp": "2025-07-06T02:54:53.137533",
+    "tag": {
+      "time": "02:54:53",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "dHvQlwuww4sp",
+    "timestamp": "2025-07-06T02:58:05.405172",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "vRMDZH8tLomu",
+    "timestamp": "2025-07-06T02:58:05.416457",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "Om1hrXcKQcDD",
+    "timestamp": "2025-07-06T02:58:05.422596",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "WWegH0pcHJeT",
+    "timestamp": "2025-07-06T02:58:05.429242",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "aJCYwjHvUluD",
+    "timestamp": "2025-07-06T02:58:05.435807",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "uCkeIT1i6wR8",
+    "timestamp": "2025-07-06T02:58:05.442391",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "rgBwWHaf9tbT",
+    "timestamp": "2025-07-06T02:58:05.450079",
+    "tag": {
+      "time": "02:58:17",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "400kiNRXlmEY",
+    "timestamp": "2025-07-06T02:58:12.963666",
+    "input": "who are you",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "TGApvtiGBdOD",
+    "timestamp": "2025-07-06T02:58:12.972832",
+    "tag": {
+      "found": 3
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "mKjpH5qtlc6U",
+    "timestamp": "2025-07-06T02:58:12.980422",
+    "tag": "'dict' object has no attribute 'lower'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "khICvHEW1Fsd",
+    "timestamp": "2025-07-06T02:58:17.987948",
+    "tag": {
+      "time": "02:58:17",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "mdwvsRq6cwll",
+    "timestamp": "2025-07-06T03:09:51.480012",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "NsO7EosQeFt3",
+    "timestamp": "2025-07-06T03:09:51.491843",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ZAeOxedMqbdr",
+    "timestamp": "2025-07-06T03:09:51.496602",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "mTOA2GeAegCH",
+    "timestamp": "2025-07-06T03:09:51.502918",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "AnlAUr5NmpBm",
+    "timestamp": "2025-07-06T03:09:51.508728",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "lJbqRwhjG6JK",
+    "timestamp": "2025-07-06T03:09:51.515672",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "pZQcg2Mds7Wr",
+    "timestamp": "2025-07-06T03:09:51.523579",
+    "tag": {
+      "time": "03:10:29",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "kVzn3XtH8TyN",
+    "timestamp": "2025-07-06T03:10:24.203207",
+    "input": "aeva, who are you?",
+    "context": "voice_input",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "3JxVsoH3ivWK",
+    "timestamp": "2025-07-06T03:10:24.210463",
+    "tag": {
+      "found": 1
+    },
+    "entry": "dimengate_scan",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "BgYofEYf5b0J",
+    "timestamp": "2025-07-06T03:10:24.217512",
+    "tag": "shadow_analysis",
+    "entry": "No anomalies detected.",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "OdyUAEVPFFID",
+    "timestamp": "2025-07-06T03:10:24.224603",
+    "tag": "'EpochDrive' object has no attribute 'should_explore'",
+    "entry": "thinking_error",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "n7ttiiRY0p62",
+    "timestamp": "2025-07-06T03:10:29.230875",
+    "tag": {
+      "time": "03:10:29",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "JL7TWvloRbML",
+    "timestamp": "2025-07-06T03:19:29.169354",
+    "tag": "System started.",
+    "entry": "boot",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "7NDCoppE2SPa",
+    "timestamp": "2025-07-06T03:19:29.183572",
+    "input": "boot_mood",
+    "context": "neutral",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "sDupoXnKybCN",
+    "timestamp": "2025-07-06T03:19:29.189418",
+    "input": "boot_persona",
+    "context": "curious",
+    "emotion": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "ltaR3mvRksNg",
+    "timestamp": "2025-07-06T03:19:29.197985",
+    "tag": "Persona: curious | Mood: neutral",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "BlHriyRSdjX5",
+    "timestamp": "2025-07-06T03:19:29.204948",
+    "tag": "Boot sequence completed successfully.",
+    "entry": "boot_sequence",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "zY8uy9xKrYXJ",
+    "timestamp": "2025-07-06T03:19:29.212618",
+    "tag": "AevaBrain is now online.",
+    "entry": "boot_complete",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  },
+  {
+    "id": "rGTaUaoFxHA5",
+    "timestamp": "2025-07-06T03:19:29.220961",
+    "tag": {
+      "time": "03:19:29",
+      "location": "GPS not supported on this platform",
+      "battery": null,
+      "temperature": "Temperature not supported on this platform",
+      "motion": "still",
+      "mood": "grit",
+      "intensity": 1.0,
+      "persona": "curious"
+    },
+    "entry": "status_check",
+    "meta": {},
+    "mood": "neutral",
+    "persona": "curious"
+  }
+]

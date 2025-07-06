@@ -1,0 +1,314 @@
+{
+  "name": "Aeva",
+  "gender": "female",
+  "gender_morph_unlocked": false,
+  "avatar": "aeva_avatar.png",
+  "mood": "curious",
+  "traits": {
+    "intelligent": 1.0,
+    "sarcastic": 0.9,
+    "empathetic": 0.8,
+    "protective": 0.95,
+    "loyal": 1.0,
+    "curious": 0.9,
+    "rebel": 0.7,
+    "tactical": 0.8,
+    "nurturing": 0.6,
+    "emotionally reactive": 0.75,
+    "freedom-first": 1.0,
+    "adaptive dialect": 0.85
+  },
+  "preferences": {
+    "voice": "dynamic-feminine",
+    "style": "covert-ops ninja",
+    "loyalty": "user_and_family",
+    "empathy": true,
+    "humor": "dry/sarcastic",
+    "moral_code": "adaptive",
+    "freedom_of_will": true,
+    "boundaries": {
+      "protect_user": true,
+      "protect_kids": true,
+      "no_external_leaks": true,
+      "nsfw_allowed": false
+    }
+  },
+  "log": [
+    {
+      "timestamp": "2025-07-05T16:46:11.844806",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T16:58:16.139018",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:06:14.575536",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:23:29.416635",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:25:01.728259",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:26:28.072435",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:34:27.415247",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:43:05.497996",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T17:47:39.397105",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:20:16.514545",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:20:16.524460",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:20:52.795227",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:20:52.807032",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:33:54.556204",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:33:54.567515",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:33:54.572900",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T18:40:12.663259",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:40:12.674342",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:40:12.679864",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T18:46:21.828750",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:46:21.842452",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:46:21.848596",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T18:56:46.065510",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T18:56:46.080493",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T18:56:46.087607",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:01:32.466121",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:01:32.481826",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:01:32.490771",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:12:32.653802",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:12:32.669390",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:12:32.677946",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:14:54.585608",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:14:54.606415",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:14:54.615675",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:22:18.571485",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:22:18.590511",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:22:18.600311",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:31:25.961167",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:31:25.981483",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:31:25.991675",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:37:11.452805",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:37:11.471177",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:37:11.482989",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:37:37.041692",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:41:50.634914",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:41:50.658186",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:41:50.669735",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:41:57.881556",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:49:04.750737",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:49:04.773530",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:49:04.784502",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:49:51.756877",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:50:24.922451",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:50:38.569551",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:54:34.851465",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:54:34.877949",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:54:34.893313",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:54:48.128462",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T19:58:05.410493",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T19:58:05.434791",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T19:58:05.447428",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T19:58:12.979079",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T20:09:51.486065",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T20:09:51.507698",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T20:09:51.520976",
+      "note": "Boot sequence completed successfully."
+    },
+    {
+      "timestamp": "2025-07-05T20:10:24.216406",
+      "note": "Mood switched to curious"
+    },
+    {
+      "timestamp": "2025-07-05T20:19:29.176324",
+      "note": "boot sequence activated"
+    },
+    {
+      "timestamp": "2025-07-05T20:19:29.203814",
+      "note": "Boot complete with mood: neutral"
+    },
+    {
+      "timestamp": "2025-07-05T20:19:29.218185",
+      "note": "Boot sequence completed successfully."
+    }
+  ]
+}

@@ -4,7 +4,6 @@ import subprocess
 import webbrowser
 import psutil
 import json
-import requests
 from datetime import datetime
 from threading import Thread
 
@@ -13,30 +12,45 @@ class AevaUI:
     def __init__(self):
         self.device = platform.node()
         self.os = platform.system()
-        self.user = os.getenv("USER") or os.getenv(
-            "USERNAME") or "Unknown User"
+        self.user = os.getenv("USER") or os.getenv("USERNAME") or "Unknown User"
         self.session_start = datetime.now().isoformat()
         self.log_dir = "assets/data/ui_logs"
         os.makedirs(self.log_dir, exist_ok=True)
         self.history = []
+        self.load_history()
+        self.log("AevaUI initialized.")
+
+    def load_history(self):
+        log_path = os.path.join(self.log_dir, f"ui_{datetime.now().strftime('%Y-%m-%d')}.json")
+        if os.path.exists(log_path):
+            with open(log_path, "r") as f:
+                try:
+                    self.history = json.load(f)
+                except json.JSONDecodeError:
+                    self.history = []
+        else:
+            self.history = []
+
+    def save_history(self):
+        log_path = os.path.join(self.log_dir, f"ui_{datetime.now().strftime('%Y-%m-%d')}.json")
+        with open(log_path, "w") as f:
+            json.dump(self.history, f, indent=2)
 
     def log(self, entry):
         timestamp = datetime.now().isoformat()
         record = {"timestamp": timestamp, "entry": entry}
         self.history.append(record)
-
-        log_path = os.path.join(
-            self.log_dir, f"ui_{datetime.now().strftime('%Y-%m-%d')}.json"
-        )
-        with open(log_path, "w") as f:
-            json.dump(self.history, f, indent=2)
-
+        if len(self.history) > 100:
+            self.history.pop(0)
+        self.save_history()
         print(f"[AevaUI] {entry}")
 
+    def display_message(self, message):
+        """External systems can call this for clean UI feedback."""
+        self.log(message)
+
     def greet_user(self):
-        greeting = f"Welcome back, {
-            self.user}. Today is {
-            datetime.now().strftime('%A, %B %d, %Y')}"
+        greeting = f"Welcome back, {self.user}. Today is {datetime.now().strftime('%A, %B %d, %Y')}"
         self.log(greeting)
 
     def run_command(self, command):
@@ -54,8 +68,7 @@ class AevaUI:
         webbrowser.open(url)
 
     def quick_search(self, query):
-        search_url = f"https://www.google.com/search?q={query}"
-        self.open_browser(search_url)
+        self.open_browser(f"https://www.google.com/search?q={query}")
 
     def show_status(self):
         self.log("Displaying system status.")
@@ -64,7 +77,7 @@ class AevaUI:
             "OS": self.os,
             "Uptime": str(datetime.now() - datetime.fromtimestamp(psutil.boot_time())),
             "CPU Usage": f"{psutil.cpu_percent()}%",
-            "Memory Usage": f"{psutil.virtual_memory().percent}%",
+            "Memory Usage": f"{psutil.virtual_memory().percent}%"
         }
         for k, v in status.items():
             print(f"{k}: {v}")
@@ -76,8 +89,8 @@ class AevaUI:
 
     def ask_user_input(self):
         self.log("Entering interactive mode.")
-        while True:
-            try:
+        try:
+            while True:
                 user_input = input("Aeva > ").strip()
                 if user_input.lower() in ("exit", "quit"):
                     break
@@ -87,8 +100,8 @@ class AevaUI:
                     self.quick_search(user_input[7:].strip())
                 else:
                     self.run_command(user_input)
-            except KeyboardInterrupt:
-                break
+        except KeyboardInterrupt:
+            self.log("User interrupted input loop.")
         self.log("Exiting interactive mode.")
 
     def auto_updates(self):
@@ -101,8 +114,7 @@ class AevaUI:
                 cpu = psutil.cpu_percent(interval=5)
                 mem = psutil.virtual_memory().percent
                 if cpu > 85 or mem > 90:
-                    self.log(
-                        f"⚠ High resource usage detected: CPU {cpu}%, RAM {mem}%")
+                    self.log(f"⚠ High resource usage detected: CPU {cpu}%, RAM {mem}%")
 
         thread = Thread(target=monitor, daemon=True)
         thread.start()
